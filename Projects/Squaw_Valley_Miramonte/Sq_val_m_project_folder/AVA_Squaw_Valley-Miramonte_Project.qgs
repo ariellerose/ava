@@ -1,0 +1,424 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.15">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="CA_Orange_Cove_North_293744_1966_24000_geo20180507103039439" source="C:/Users/acrose/Documents/GitHub/ava/Projects/Squaw_Valley_Miramonte/Sq_val_m_project_folder/CA_Orange Cove North_293744_1966_24000_geo.tif" name="CA_Orange Cove North_293744_1966_24000_geo">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="CA_Pine_Flat_Dam_101796_1965_24000_geo20180507103036247" source="C:/Users/acrose/Documents/GitHub/ava/Projects/Squaw_Valley_Miramonte/Sq_val_m_project_folder/CA_Pine Flat Dam_101796_1965_24000_geo.tif" name="CA_Pine Flat Dam_101796_1965_24000_geo">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="CA_Tucker_Mtn_102064_1966_24000_geo20180507103032870" source="C:/Users/acrose/Documents/GitHub/ava/Projects/Squaw_Valley_Miramonte/Sq_val_m_project_folder/CA_Tucker Mtn_102064_1966_24000_geo.tif" name="CA_Tucker Mtn_102064_1966_24000_geo">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="CA_Verplank_Ridge_102367_1987_24000_geo20180507103029376" source="C:/Users/acrose/Documents/GitHub/ava/Projects/Squaw_Valley_Miramonte/Sq_val_m_project_folder/CA_Verplank Ridge_102367_1987_24000_geo.tif" name="CA_Verplank Ridge_102367_1987_24000_geo">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="CA_Miramonte_101605_1966_24000_geo20180507103042688" source="C:/Users/acrose/Documents/GitHub/ava/Projects/Squaw_Valley_Miramonte/Sq_val_m_project_folder/CA_Miramonte_101605_1966_24000_geo.tif" name="CA_Miramonte_101605_1966_24000_geo">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="CA_Luckett_Mtn_100992_1987_24000_geo20180507103046051" source="C:/Users/acrose/Documents/GitHub/ava/Projects/Squaw_Valley_Miramonte/Sq_val_m_project_folder/CA_Luckett Mtn_100992_1987_24000_geo.tif" name="CA_Luckett Mtn_100992_1987_24000_geo">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>-28700.36525835423162789</xmin>
+      <ymin>-8117.71555374720082909</ymin>
+      <xmax>-25275.40385835423148819</xmax>
+      <ymax>-3839.31415374719836109</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=lcc +lat_1=33 +lat_2=45 +lat_0=36.75 +lon_0=-119.0629999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs</proj4>
+        <srsid>100005</srsid>
+        <srid>0</srid>
+        <authid>USER:100005</authid>
+        <description> * Generated CRS (+proj=lcc +lat_1=33 +lat_2=45 +lat_0=36.75 +lon_0=-119.0629999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs)</description>
+        <projectionacronym>lcc</projectionacronym>
+        <ellipsoidacronym></ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="USER:100005" srcAuthId="USER:100003" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA_Pine_Flat_Dam_101796_1965_24000_geo20180507103036247"/>
+      <layer_coordinate_transform destAuthId="USER:100005" srcAuthId="USER:100002" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA_Miramonte_101605_1966_24000_geo20180507103042688"/>
+      <layer_coordinate_transform destAuthId="USER:100005" srcAuthId="USER:100005" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA_Verplank_Ridge_102367_1987_24000_geo20180507103029376"/>
+      <layer_coordinate_transform destAuthId="USER:100005" srcAuthId="USER:100003" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA_Orange_Cove_North_293744_1966_24000_geo20180507103039439"/>
+      <layer_coordinate_transform destAuthId="USER:100005" srcAuthId="USER:100006" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA_Luckett_Mtn_100992_1987_24000_geo20180507103046051"/>
+      <layer_coordinate_transform destAuthId="USER:100005" srcAuthId="USER:100004" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA_Tucker_Mtn_102064_1966_24000_geo20180507103032870"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>CA_Verplank_Ridge_102367_1987_24000_geo20180507103029376</item>
+      <item>CA_Tucker_Mtn_102064_1966_24000_geo20180507103032870</item>
+      <item>CA_Pine_Flat_Dam_101796_1965_24000_geo20180507103036247</item>
+      <item>CA_Orange_Cove_North_293744_1966_24000_geo20180507103039439</item>
+      <item>CA_Miramonte_101605_1966_24000_geo20180507103042688</item>
+      <item>CA_Luckett_Mtn_100992_1987_24000_geo20180507103046051</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CA_Orange Cove North_293744_1966_24000_geo" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="CA_Orange_Cove_North_293744_1966_24000_geo20180507103039439" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CA_Pine Flat Dam_101796_1965_24000_geo" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="CA_Pine_Flat_Dam_101796_1965_24000_geo20180507103036247" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CA_Tucker Mtn_102064_1966_24000_geo" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="CA_Tucker_Mtn_102064_1966_24000_geo20180507103032870" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CA_Verplank Ridge_102367_1987_24000_geo" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="CA_Verplank_Ridge_102367_1987_24000_geo20180507103029376" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CA_Miramonte_101605_1966_24000_geo" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="CA_Miramonte_101605_1966_24000_geo20180507103042688" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CA_Luckett Mtn_100992_1987_24000_geo" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="CA_Luckett_Mtn_100992_1987_24000_geo20180507103046051" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-6349.76224920631557325</xmin>
+        <ymin>-1777.17076102003011329</ymin>
+        <xmax>6705.83775079368479055</xmax>
+        <ymax>14521.50123897997036693</ymax>
+      </extent>
+      <id>CA_Luckett_Mtn_100992_1987_24000_geo20180507103046051</id>
+      <datasource>./CA_Luckett Mtn_100992_1987_24000_geo.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CA_Luckett Mtn_100992_1987_24000_geo</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=33 +lat_2=45 +lat_0=36.75 +lon_0=-119.1879999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs</proj4>
+          <srsid>100006</srsid>
+          <srid>0</srid>
+          <authid>USER:100006</authid>
+          <description> * Generated CRS (+proj=lcc +lat_1=33 +lat_2=45 +lat_0=36.75 +lon_0=-119.1879999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs)</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-6593.28548858854082937</xmin>
+        <ymin>4052954.88361347885802388</ymin>
+        <xmax>6521.24251141145578003</xmax>
+        <ymax>4069296.22761347889900208</ymax>
+      </extent>
+      <id>CA_Miramonte_101605_1966_24000_geo20180507103042688</id>
+      <datasource>./CA_Miramonte_101605_1966_24000_geo.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CA_Miramonte_101605_1966_24000_geo</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=poly +lat_0=0 +lon_0=-119.0629999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs</proj4>
+          <srsid>100002</srsid>
+          <srid>0</srid>
+          <authid>USER:100002</authid>
+          <description> * Generated CRS (+proj=poly +lat_0=0 +lon_0=-119.0629999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs)</description>
+          <projectionacronym>poly</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-6664.44679542344420042</xmin>
+        <ymin>4052895.71235691336914897</ymin>
+        <xmax>6738.62520457655591599</xmax>
+        <ymax>4069269.56835691351443529</ymax>
+      </extent>
+      <id>CA_Orange_Cove_North_293744_1966_24000_geo20180507103039439</id>
+      <datasource>./CA_Orange Cove North_293744_1966_24000_geo.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CA_Orange Cove North_293744_1966_24000_geo</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=poly +lat_0=0 +lon_0=-119.3129999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs</proj4>
+          <srsid>100003</srsid>
+          <srid>0</srid>
+          <authid>USER:100003</authid>
+          <description> * Generated CRS (+proj=poly +lat_0=0 +lon_0=-119.3129999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs)</description>
+          <projectionacronym>poly</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-6405.76012566090139444</xmin>
+        <ymin>4066789.64197101537138224</ymin>
+        <xmax>6692.51187433909944957</xmax>
+        <ymax>4083198.04197101527824998</ymax>
+      </extent>
+      <id>CA_Pine_Flat_Dam_101796_1965_24000_geo20180507103036247</id>
+      <datasource>./CA_Pine Flat Dam_101796_1965_24000_geo.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CA_Pine Flat Dam_101796_1965_24000_geo</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=poly +lat_0=0 +lon_0=-119.3129999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs</proj4>
+          <srsid>100003</srsid>
+          <srid>0</srid>
+          <authid>USER:100003</authid>
+          <description> * Generated CRS (+proj=poly +lat_0=0 +lon_0=-119.3129999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs)</description>
+          <projectionacronym>poly</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-6442.92469375361542916</xmin>
+        <ymin>4052997.92777599301189184</ymin>
+        <xmax>6663.47530624638420704</xmax>
+        <ymax>4069312.85577599285170436</ymax>
+      </extent>
+      <id>CA_Tucker_Mtn_102064_1966_24000_geo20180507103032870</id>
+      <datasource>./CA_Tucker Mtn_102064_1966_24000_geo.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CA_Tucker Mtn_102064_1966_24000_geo</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=poly +lat_0=0 +lon_0=-119.1879999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs</proj4>
+          <srsid>100004</srsid>
+          <srid>0</srid>
+          <authid>USER:100004</authid>
+          <description> * Generated CRS (+proj=poly +lat_0=0 +lon_0=-119.1879999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs)</description>
+          <projectionacronym>poly</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-6409.34373952422902221</xmin>
+        <ymin>-1805.50344021885757684</ymin>
+        <xmax>6638.12826047577073041</xmax>
+        <ymax>14493.16855978114290338</ymax>
+      </extent>
+      <id>CA_Verplank_Ridge_102367_1987_24000_geo20180507103029376</id>
+      <datasource>./CA_Verplank Ridge_102367_1987_24000_geo.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CA_Verplank Ridge_102367_1987_24000_geo</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=33 +lat_2=45 +lat_0=36.75 +lon_0=-119.0629999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs</proj4>
+          <srsid>100005</srsid>
+          <srid>0</srid>
+          <authid>USER:100005</authid>
+          <description> * Generated CRS (+proj=lcc +lat_1=33 +lat_2=45 +lat_0=36.75 +lon_0=-119.0629999999992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs)</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
