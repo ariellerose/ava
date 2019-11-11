@@ -1,6 +1,6 @@
 # American Viticultural Areas (AVA) Project
 
-The UC Davis library, in conjunction with UCSB, other partner organizations, and contributions from the general public, will create a publically accessible version American Viticultural Areas boundaries.  Using the text descriptions from the ATPF Code of regulations, we will build this data from the official descriptions.  These data will be made freely availabe.  This dataset will provide wine researchers with an important tool as they examine the scientific, economic and historical aspects of viticulture.
+The UC Davis library, in conjunction with UCSB, Virginia Tech, other partner organizations, and contributions from the general public, will create a publicly accessible version American Viticultural Areas boundaries.  Using the text descriptions from the ATPF Code of regulations, we will build this data from the official descriptions.  These data will be made freely available.  This dataset will provide wine researchers with an important tool as they examine the scientific, economic and historical aspects of viticulture.
 
 Anyone can contribute to this project.
 
@@ -27,13 +27,17 @@ Wine Institute: https://www.wineinstitute.org/resources/avas
 1. Create a Pull Request
 
 ## Progress
-As of November 16, 2017, 83 AVAs in California were completed.  156 remain to be completed nation-wide.
+As of May 30, 2019, 198 AVAs are complete.  43 remain to be completed nation-wide.
+AVAs for California, Arizona, & Colorado are complete.  California's boundaries are undergoing a quality control process to ensure the boundaries are as correct as we can make them.
 
 ### UC Davis
-UC Davis will contribute boundaries for the northern California AVAs (marked with the "UC Davis" label in the Issues list).
+UC Davis completed boundaries for the northern California, Arizona, and Colorado AVAs.  Issues marked with the "UC Davis" label are designated for UC Davis to work on.  They will continue adding AVAs moving east across the county.
 
 ### UC Santa Barbara
-UC Santa Barbara completed boundaries for the southern California AVAs (marked with the "UC Santa Barbara" label in the Issues list) November 2017.
+UC Santa Barbara completed boundaries for the southern California AVAs (marked with the "UC Santa Barbara" label in the Issues list) November 2017 and have subsequently contributed many boundaries in Oregon and Washigton.
+
+### Virginia Tech
+Virginia Tech plans to complete boundaries in and around Virginia.  These boundaries are marked with the "Virginia Tech" label in the Issues list.
 
 ### Additional Partnerships
 University entities (departments, labs, research groups, etc.) or other organizations interested in becoming project partners should contact us.  We're happy to discuss new partnerships in building this and similar datasets!  A partnership is not necessary, however, to contribute.
@@ -58,17 +62,18 @@ cfr_index	9.212
 cfr_revision_history | text | the string of text citing the documents that currently apply to this boundary definition |	[T.D. TTB-71, 73 FR 64202, Oct. 29, 2008]
 approved_maps | text | the approved maps listed for the boundary defintion |(1) Ritter Ridge, Calif., 1958; Photorevised 1974; (2) Sleepy Valley, CA, 1995; (3) Del Sur, CA, 1995; and (4) Lake Hughes, CA, 1995.
 boundary_description | text | the official boundary description |
-used_maps	| text | the maps used to digitize the boundary |
-last_revised | date | the last revision that applies to this boundary |
-lcsh	| text | (optional) Library of Congress Subject Heading |
+used_maps	| text | the maps the digitizer used to digitize the boundary |
+valid_start | date | the date this boundary revision began (applies only if there were revisions to the boundary) |
+valid_end | date | the last date this revision was valid (applies only if there were revisions to the boundary) |
+lcsh	| text | (optional) Library of Congress Subject Heading; Generally UCD Library staff has filled these in and will add them as new subject headings are approved |
 sameas	| text | (optional) linked data URIs for terms that are identical to this AVA |
 
-*Note:* Contributors using QGIS 2.18.10 or older with GDAL 2.2.0 should fill in any blanks in their attribute table with N/A due to a known issue with how unset values are handled. A [more permanent fix](https://issues.qgis.org/issues/16812) is in the works.
+*Note:* Contributors using QGIS 2.18.10 or older with GDAL 2.2.0 should fill in any blanks in their attribute table with N/A due to a known issue with how unset values are handled. A [more permanent fix](https://issues.qgis.org/issues/16812) is in the works.  Contributors using QGIS 3.0 have not experienced this issue and it is now the version we recommend.
 
 # How can you access the data?
 
 ## Download the whole repository
-You can use the green download button on the Code tab of this repository to download all of the files in this repository or you can fork this repository.
+You can use the green download button on the Code tab of this repository to download all of the files in this repository or you can fork this repository.  Finished states are available for download in the AVAs By State folder.
 
 ## Download just the AVAs file or individual AVA boundaries
 You can download single .geojson files (including the avas.geojson file that has all of the boundaries) by:
@@ -78,12 +83,13 @@ You can download single .geojson files (including the avas.geojson file that has
 1. Save the file where you would like to keep it.  You may need to remove an additional .txt extension that may get automatically added to the file name.  You file extension should be .geojson
 
 # What is the long-term plan for this data?
-Version 1.0 will be released once all of the AVAs in California are completed.  The data will be offered as a fixed set of boundaries (no longer updated) here on our GitHub site but also in the UC Davis Library Digital Asset Management System.  Work will continue on additional AVA boundaries.  Definitions for additional versions will depend on partnerships and resource availability.
+Version 1.0 will be released once all of the AVAs in California are completed and proofed for quality.  The data will be offered as a fixed set of boundaries (no longer updated) here on our GitHub site but also in the UC Davis Library Digital Asset Management System.  Work will continue on additional AVA boundaries.  Definitions for additional versions will depend on partnerships and resource availability.
 
 # UC Davis Library Project Team:
-[Vessela Ensberg](https://www.library.ucdavis.edu/author/vessela-ensberg/)  (Program Director, Data Management Program)
 
-[Michele Tobias](https://github.com/micheletobias) (GIS Data Curator, Data Management Program)
+[Michele Tobias](https://github.com/micheletobias) (GIS Data Curator, DataLab, Data & Digital Scholarship)
+
+[Vessela Ensberg](https://www.library.ucdavis.edu/author/vessela-ensberg/)  (Online Strategies)
 
 [Quinn Hart](https://github.com/qjhart) (Digital Applications)
 
@@ -93,9 +99,13 @@ Version 1.0 will be released once all of the AVAs in California are completed.  
 
 [Michael Colby](https://www.library.ucdavis.edu/author/michael-colby/) (Librarian, Content Support Services)
 
-[Yao Fang](https://github.com/fyfangyao) (Student Employee, Data Management Program, beginning October 2017)
-
 [Amber Reyes](https://github.com/amberreyes) (Student Employee, Data Management Program, from April - July 2017)
+
+[Yao Fang](https://github.com/fyfangyao) (Student Employee, Data Management Program, from October 2017 - June 2018)
+
+[Soo Min Hur](https://github.com/SoominHur) (Student Employee, Data Management Program, November 2018 - June 2019)
+
+[David Li](https://github.com/davidkli) (Student Employee, DataLab, starting October 2019)
 
 **Consultants:**
 
@@ -113,11 +123,43 @@ Maga Kim (Undergraduate; Collaboratory Staff)
 Timothy Kwong (Undergraduate; Collaboratory Staff)
 
 # Other Contributors
-[Alex Mandel](https://github.com/wildintellect)
+[Alex Mandel](https://github.com/wildintellect) (UC Davis Center for Spatial Sciences)
 
 [Grant Miller-Francisco](https://github.com/gdmf)
 
 [Kyle W. Smith](https://github.com/KyleWSmith)
+
+[ouwxmaniac](https://github.com/ouwxmaniac)
+
+[Arielle Rose](https://github.com/ariellerose) (Intern, UC Davis Center for Spatial Sciences)
+
+[Sierra Mabanta](https://github.com/sierramabanta) (Intern, UC Davis Center for Spatial Sciences)
+
+[Brian Lee](https://github.com/bsllee) (UC Davis Economics Alumni)
+
+[Innisfree McKinnon](https://github.com/InnisfreeM) (Assistant Professor, University of Wisconsin, Stout)
+
+[Daniel O'Brien](https://github.com/dannyo33) (Intern, UC Davis Center for Spatial Sciences)
+
+[Anna Gard](https://github.com/amgard) (Intern, UC Davis Center for Spatial Sciences)
+
+[Alexenia Aldape](https://github.com/Alexenia) (UC Davis Alumni & Intern, UC Davis Center for Spatial Sciences)
+
+[Steve De Long](https://github.com/sdelong)
+
+# Awards, Publications, & Projects Using Our Data
+
+2018 [Sautter Award](https://www.ucop.edu/information-technology-services/initiatives/sautter-award-program/award-winners-and-applications/2018.html) - Silver - for Innovation in Information Technologies, awarded by the University of California Office of the President.
+
+Myles, C.C., M.M. Tobias, & I. McKinnon. 2019. “‘A big fish in a small pond’: How Arizona wine country was made” in *Agritourism, Wine Tourism, Craft Beer Tourism: Local Responses to peripherality through tourism niches.*  Maria Giulia Pezzi (GSSI), Alessandra Faggian (GSSI), Neil Reid (University of Toledo, OH), eds.  **In press.**
+
+Bizou Wine's ["Mapping Our Wines"](http://www.bizouwines.com/mapping-our-wines)
+
+Have you used the AVA project in your work?  Please let us know! mmtobias [at] ucdavis.edu
+
+# License
+The licence for this data is [Creative Commons CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).  We encourage citation of this dataset when it is used in academic works.
+
 
 # Disclaimer
 The American Viticulture Areas (AVA) Project data is provided for educational purposes only. Data and materials may not be accurate or complete, and are provided as-is, without warranties of any kind. Please note that while every effort was made to digitize the data from the maps designated in the official descriptions of the boundaries from the Alcohol and Tobacco Tax and Trade Bureau, some substitutions were made and are noted in the attribute table.
